@@ -1,5 +1,5 @@
-var assert = require('assert');
-var compare = require('..');
+import assert from 'assert';
+import compare from '../index';
 
 describe('greater than', function () {
   it('should evaluate to greater than (1)', function () {

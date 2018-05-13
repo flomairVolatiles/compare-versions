@@ -1,5 +1,5 @@
-var assert = require('assert');
-var compare = require('..');
+import assert from 'assert';
+import compare from '../index';
 var cmp = {
   '1': '>',
   '0': '=',
